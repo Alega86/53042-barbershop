@@ -37,6 +37,7 @@
     </header>
     <main class="container">
       <h1>Средства для ухода</h1>
+      <!-- В прошлом файле описал проблему -->
       <div class="breadcrumbs">
         <ul сclass="bread">
           <li>
@@ -62,18 +63,19 @@
             <input type="checkbox" id="check6"><label for="check6">AMERICAN CREW</label>
           </div>
           <span class="filter-group">Группы товаров:</span>
-            <div class="btm">
+            <div class="btm"><!-- Див лишний -->
+              <!-- Если ты используешь инпут типа сабмит, то тогда ты должен все фильтры и кнопку обернуть в тег form -->
               <input type="submit" name="s" value="Показать">
             </div>
         </div>
         <div class="catalog-list">
-          <div class="list">
+          <div class="list"><!-- Этот див лишний -->
             <article class=""product>
-              <div class="product-foto">
+              <div class="product-foto"><!-- Этот див лишний -->
                 <img src="http://placehold.it/150x100">
               </div>
               <span class="product-name">"Набор для путешествий "BAXTER OF CALIFORNIA"
-              </span>
+              </span><!-- тут бы я поставил p -->
               <div class="product-price">
                 <span>2900 руб.</span>
                 <a class="btn" href="#">купить</a>
@@ -135,9 +137,9 @@
               </div>
             </article>
             <div class="sub">
-              <div class="pager">
-                <ul class="pgs">
-                  <li><span>1</span></li>
+              <div class="pager"><!-- Этот див лишний -->
+                <ul class="pgs"><!-- Тут можно прописать нормальный класс paginator -->
+                  <li><span>1</span></li><!-- Вместо спанов нужно использовать ссылки -->
                   <li><span class="active">2</span></li>
                   <li><span>3</span></li>
                   <li><span>4</span></li>
