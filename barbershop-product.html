@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="logo">
           <a href="index.html"><img src="" alt="Барбершоп «Бородинский»"></a>
         </div>
@@ -29,16 +29,16 @@
               <a href="#">Контакты</a>
             </li>
           </ul>
+       </nav>
           <div class="login">
             <a href="#">Вход</a>
           </div>
-
-        </nav>
       </div>
     </header>
     <main class="container">
       <h1>Набор для путешествий "BAXTER OF CALIFORNIA"</h1>
-        <ul сclass="breadcrumbs">
+      <div class="breadcrumbs">
+        <ul сclass="bread">
           <li>
             <a href="#">Главная</a>
           </li>
@@ -46,22 +46,26 @@
             <a href="#">Магазин</a>
           </li>
           <li>
-              <a href="#">Средства для ухода</a>
+            <a href="#">Средства для ухода</a>
           </li>
           <li>
             Набор для путешествий "BAXTER OF CALIFORNIA"
           </li>
         </ul>
+
+      </div>
       <div class="center">
         <!-- Блок с фотогалереей товара -->
         <div class="foto-gallery">
             <div class="main-image"><img src="img/product-main.jpg" alt=""></div>
               <!-- тумбы фоток выводим списком -->
-              <ul class="pg-list">
-                <li><img src="img/product-tumb-1.jpg" alt="" /></li>
-                <li><img src="img/product-tumb-2.jpg" alt="" /></li>
-                <li><img src="img/product-tumb-3.jpg" alt="" /></li>
-             </ul>
+              <div class="thumbs">
+                <ul class="pg-list">
+                  <li><img src="img/product-tumb-1.jpg" alt="" /></li>
+                  <li><img src="img/product-tumb-2.jpg" alt="" /></li>
+                  <li><img src="img/product-tumb-3.jpg" alt="" /></li>
+                </ul>
+              </div>
         </div>
         <!-- Конец блока с фотогалереей товара -->
         <!-- Блок с информацией о товаре -->
@@ -71,7 +75,7 @@
             <span class="article">Артикул:DEXTER-AE</span>
           </div>
           <p class="description">
-              Тут текст о товаре, все плюсы и минусы.
+              Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
           </p>
 
           <div class="price">
@@ -91,10 +95,8 @@
         </div>
           <!-- Конец блока с информацией о товаре -->
         </div>
-
-      </div>
     </main>
-    <footer class=""footer>
+    <footer class="footer">
       <div class="container">
        <section class="footer-contacts">
          Барбершоп «Бородинский»<br>
